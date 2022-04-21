@@ -1,0 +1,12 @@
+App
+    Header
+        Img*3
+        Nav --> <Nav>
+    Main
+        ProductList --> <section>
+            ProductItem*3 --> <article>
+        ReviewsList --> <aside>
+            ReviewItem*2    --> <article>
+    Footer
+        Nav*2
+        Img
